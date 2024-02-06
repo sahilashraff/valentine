@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./new\ bg.jpg);
+    /* Replace 'valentine_background.jpg' with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.headline {
+    color: #ff3860;
+    /* Pink color */
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.btn {
+    color: #ff3860;
+    cursor: pointer;
+    // display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 0 2em;
+    max-width: 160px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+#yesBtn {
+    background-color: #ff3860;
+    padding: 10px 40px;
+    border-radius: 2rem;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    box-shadow: 0px 3px 6px 0px rgba(140, 149, 159, 0.15);
+}
+
+#noBtn {
+    background-color: #ff3860;
+    padding: 10px 40px;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0px 3px 6px 0px rgba(140, 149, 159, 0.15);
+}
+
+.gif-container {
+    margin-bottom: 20px;
+}
+
+.gif-container img {
+    width: 200px;
+    /* Adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
